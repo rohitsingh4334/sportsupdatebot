@@ -1,8 +1,9 @@
 # sportsupdatebot
+
 This bot gives the updates related to sports.
 
-# Open two terminal 
-`Terminal 1: make action-server`
-`Terminal 2: make train-core`
+### How to run the bot: 
 
-# This repositiory open for everyone
+- Open two terminal:
+  - Terminal 1:`$ make action-server` 
+  -  Terminal 2: `$ make train-core`
