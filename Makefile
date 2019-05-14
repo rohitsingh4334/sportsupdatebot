@@ -1,6 +1,6 @@
 .PHONY: clean train-nlu train-core cmdline server
 
-TEST_PATH=./
+TEST_PATH=test/
 
 help:
 	@echo "    clean"
