@@ -11,7 +11,7 @@ from rasa_core_sdk import Action
 logger = logging.getLogger(__name__)
 
 API_URL = "https://cricapi.com/api/matches?apikey=KRAteAAoYOcW6vEfxottDRBcaFf1"
-API_KEY = "KRAteAAoYOcW6vEfxottDRBcaFf1"
+API_KEY = "GENERATE_KEY_GO_TO: https://cricapi.com/"
 
 
 class ApiAction(Action):
