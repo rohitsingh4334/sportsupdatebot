@@ -25,16 +25,16 @@ clean:
 	rm -rf docs/_build
 
 train-nlu:
-	python -m rasa_nlu.train -c nlu_config.yml --data data/nlu_data.md -o models --fixed_model_name nlu --project current --verbose
+	python -m rasa_nlu.train -c config/nlu_config.yml --data data/nlu_data.md -o models --fixed_model_name nlu --project current --verbose
 
 train-core:
-	python -m rasa_core.train -d domain.yml -s data/stories.md -o models/current/dialogue -c policies.yml
+	python -m rasa_core.train -d config/domain.yml -s data/stories.md -o models/current/dialogue -c config/policies.yml
 
 cmdline:
-	python -m rasa_core.run -d models/current/dialogue -u models/current/nlu --port 5002 --endpoints endpoints.yml
+	python -m rasa_core.run -d models/current/dialogue -u models/current/nlu --port 5002 --endpoints config/endpoints.yml
 
 action-server:
-	python -m rasa_core_sdk.endpoint --actions actions
+	python -m rasa_core_sdk.endpoint --actions custom_action.actions
 
 graph-cmd:
-	python -m rasa_core.visualize -d domain.yml -s data/stories.md -o graph.html
+	python -m rasa_core.visualize -d config/domain.yml -s data/stories.md -o graph.html

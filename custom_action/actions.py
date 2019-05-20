@@ -30,7 +30,7 @@ class ApiAction(Action):
                 upcoming_match["date"] = datetime.strptime(upcoming_match["date"], "%Y-%m-%dT%H:%M:%S.%fZ")
                 next_date = upcoming_match["date"].strftime("%d %B %Y")
 
-                out_message = """Here some IPL quick info:\n1.The match between {} and {} was recently held and {} won.
+                out_message = """Quick info:\n1.The match between {} and {} was recently held and {} won.
                 """.format(recent_match["team-1"], recent_match["team-2"], recent_match["winner_team"])
 
                 dispatcher.utter_message(out_message)
