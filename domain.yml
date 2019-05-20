@@ -5,6 +5,13 @@ intents:
   - deny
   - affirm
 
+slots:
+  group:
+    type: text
+
+entities:
+  - group
+
 actions:
 - utter_greet
 - utter_did_that_help

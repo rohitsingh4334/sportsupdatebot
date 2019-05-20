@@ -124,6 +124,90 @@
       {
         "intent": "current_matches",
         "text": "when is the next match"
+      },
+      {
+        "intent": "sports_preference",
+        "entities": [
+          {
+            "start": 21,
+            "end": 27,
+            "value": "tennis",
+            "entity": "group"
+          }
+        ],
+        "text": "I want to know about tennis"
+      },
+      {
+        "intent": "sports_preference",
+        "entities": [
+          {
+            "start": 15,
+            "end": 22,
+            "value": "cricket",
+            "entity": "group"
+          }
+        ],
+        "text": "any updates of cricket today ?"
+      },
+      {
+        "intent": "sports_preference",
+        "entities": [
+          {
+            "start": 29,
+            "end": 37,
+            "value": "football",
+            "entity": "group"
+          }
+        ],
+        "text": "what is the score of today's football match"
+      },
+      {
+        "intent": "sports_preference",
+        "entities": [
+          {
+            "start": 21,
+            "end": 28,
+            "value": "cricket",
+            "entity": "group"
+          }
+        ],
+        "text": "I want to know about cricket"
+      },
+      {
+        "intent": "sports_preference",
+        "entities": [
+          {
+            "start": 21,
+            "end": 29,
+            "value": "football",
+            "entity": "group"
+          }
+        ],
+        "text": "I want to know about football"
+      },
+      {
+        "intent": "sports_preference",
+        "entities": [
+          {
+            "start": 29,
+            "end": 36,
+            "value": "cricket",
+            "entity": "group"
+          }
+        ],
+        "text": "what is the score of today's cricket match"
+      },
+      {
+        "intent": "sports_preference",
+        "entities": [
+          {
+            "start": 29,
+            "end": 35,
+            "value": "tennis",
+            "entity": "group"
+          }
+        ],
+        "text": "what is the score of today's tennis match"
       }
     ],
     "regex_features": [],

@@ -1,7 +1,7 @@
 ## news path 1
 * greet
   - utter_greet
-* current_matches
+* sports_preference{"group":"tennis"}
   - action_match_news
   - utter_did_that_help
 * affirm or thanks
@@ -10,7 +10,9 @@
   - utter_goodbye
 
 ## news path 2
-* current_matches
+* greet
+  - utter_greet
+* sports_preference{"group":"cricket"}
   - action_match_news
   - utter_did_that_help
 * affirm or thanks
@@ -21,7 +23,77 @@
 ## news path 3
 * greet
   - utter_greet
+* sports_preference{"group":"football"}
+  - action_match_news
+  - utter_did_that_help
+* affirm or thanks
+  - utter_gratitude
+* goodbye
+  - utter_goodbye
+
+## news path 4
+* sports_preference{"group":"tennis"}
+  - action_match_news
+  - utter_did_that_help
+* affirm or thanks
+  - utter_gratitude
+* goodbye
+  - utter_goodbye
+
+## news path 5
+* sports_preference{"group":"cricket"}
+  - action_match_news
+  - utter_did_that_help
+* affirm or thanks
+  - utter_gratitude
+* goodbye
+  - utter_goodbye
+
+## news path 6
+* sports_preference{"group":"football"}
+  - action_match_news
+  - utter_did_that_help
+* affirm or thanks
+  - utter_gratitude
+* goodbye
+  - utter_goodbye
+
+## news path 7
+* greet
+  - utter_greet
+* sports_preference{"group":"tennis"}
+  - action_match_news
+  - utter_did_that_help
+* deny
+  - utter_ask_again
 * current_matches
+  - action_match_news
+  - utter_did_that_help
+* affirm or thanks
+  - utter_gratitude
+* goodbye
+  - utter_goodbye
+
+## news path 8
+* greet
+  - utter_greet
+* sports_preference{"group":"cricket"}
+  - action_match_news
+  - utter_did_that_help
+* deny
+  - utter_ask_again
+* current_matches
+  - action_match_news
+  - utter_did_that_help
+* affirm or thanks
+  - utter_gratitude
+* goodbye
+  - utter_goodbye
+
+## news path 9 
+* greet
+  - utter_greet
+* sports_preference{"group":"football"}
   - action_match_news
   - utter_did_that_help
 * deny

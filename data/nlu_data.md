@@ -40,3 +40,12 @@
 - how is ipl going 
 - what was the result of the last match 
 - when is the next match
+
+## intent:sports_preference
+- I want to know about [tennis](group:tennis)
+- any updates of [cricket](group:cricket) today ?
+- what is the score of today's [football](group:football) match
+- I want to know about [cricket](group:cricket)
+- I want to know about [football](group:football)
+- what is the score of today's [cricket](group:cricket) match
+- what is the score of today's [tennis](group:tennis) match
