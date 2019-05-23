@@ -1,6 +1,5 @@
 # sportsupdatebot
-
-This bot gives the updates related to sports.
+This bot can updates of sports current affairs.
 
 ### How to run the bot: 
 
