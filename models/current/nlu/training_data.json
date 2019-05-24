@@ -208,6 +208,22 @@
           }
         ],
         "text": "what is the score of today's tennis match"
+      },
+      {
+        "intent": "intro",
+        "text": "who are you?"
+      },
+      {
+        "intent": "intro",
+        "text": "what you can do ?"
+      },
+      {
+        "intent": "intro",
+        "text": "what is your features ?"
+      },
+      {
+        "intent": "intro",
+        "text": "tell me about yourself"
       }
     ],
     "regex_features": [],

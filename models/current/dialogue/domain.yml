@@ -8,6 +8,7 @@ actions:
 - utter_default
 - utter_gratitude
 - utter_ask_again
+- utter_bot_intro
 config:
   store_entities_as_slots: true
 entities:
@@ -33,6 +34,11 @@ templates:
   utter_ask_again:
   - text: Okay! Let's start again, please tell me what do you need?
   - text: "No issues! Let's try this again.\n Please repeat your query?"
+  utter_bot_intro:
+  - text: I am sportify and I could help you to give updates for matches of tennis,
+      cricket and football
+  - text: My name is sportify and my work is to give information about the matche
+      updates for tennis, cricket and football
   utter_default:
   - text: I am sorry, I didn't get that. Could you please repeat your query?
   - text: I am not sure what you are aiming for.

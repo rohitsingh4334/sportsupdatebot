@@ -49,3 +49,9 @@
 - I want to know about [football](group:football)
 - what is the score of today's [cricket](group:cricket) match
 - what is the score of today's [tennis](group:tennis) match
+
+## intent:intro
+- who are you?
+- what you can do ?
+- what is your features ?
+- tell me about yourself 

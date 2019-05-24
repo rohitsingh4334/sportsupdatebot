@@ -20,6 +20,7 @@
     "prev_action_match_news",
     "prev_utter_default",
     "prev_utter_gratitude",
-    "prev_utter_ask_again"
+    "prev_utter_ask_again",
+    "prev_utter_bot_intro"
   ]
 }
